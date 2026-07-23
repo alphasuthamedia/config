@@ -1,6 +1,4 @@
-#
-# ~/.bash_profile
-#
+# just source me... 
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
@@ -34,4 +32,3 @@ else
 fi
 
 
-[[ -f ~/.bashrc ]] && . ~/.bashrc

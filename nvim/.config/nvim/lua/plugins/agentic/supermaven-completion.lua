@@ -5,7 +5,7 @@ return {
       keymaps = {
         accept_suggestion = "<S-Tab>", -- ganti dari default <Tab> ke kombinasi lain
         clear_suggestion = "<C-]>",
-        accept_word = "<C-j>",
+        accept_word = "<S-Space>",
       },
     })
   end,
