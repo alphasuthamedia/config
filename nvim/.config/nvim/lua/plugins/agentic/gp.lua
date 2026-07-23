@@ -18,16 +18,16 @@ return {
           chat = true,
           command = true,
           provider = "deepseek",
-          model = "deepseek-v4-flash",   -- string, bukan tabel
-          system_prompt = "You are a general AI assistant.",
+          model = "deepseek-v4-flash" ,
+          system_prompt = "Be precise, like a Senior Software Engineer.",
         },
         {
           name = "DeepSeek-Pro",
           chat = true,
           command = true,
           provider = "deepseek",
-          model = "deepseek-v4-pro",     -- string, bukan tabel
-          system_prompt = "You are a general AI assistant.",
+          model = "deepseek-v4-pro" ,
+          system_prompt = "Be precise, like a Senior Software Engineer.",
         },
       },
     })
