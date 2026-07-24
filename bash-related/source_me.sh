@@ -3,7 +3,13 @@
 alias l='ls'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-PS1='[\u@\h \W]\$ '
+# PS1='[\u@\h \W]\$ '
+PS1='\[\e[38;2;180;190;254m\]\A \
+\[\e[38;2;137;180;250m\]\u\
+\[\e[38;2;205;214;244m\]@\
+\[\e[38;2;137;220;235m\]\h \
+\[\e[38;2;203;166;247m\]\W\
+\[\e[38;2;205;214;244m\]\$ '
 
 export EDITOR=nvim
 
