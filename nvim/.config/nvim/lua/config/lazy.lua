@@ -31,7 +31,6 @@ require("lazy").setup({
 			{ import = "plugins.ui" },
 			{ import = "plugins.formatter" },
 			{ import = "plugins.misc" },
-			{ import = "plugins.agentic" },
 	},
 	install = {
 		missing = true,
